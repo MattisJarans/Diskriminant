@@ -1,7 +1,9 @@
-try: x = int(input('Enter x: '))
-
-finally: y = int(input('Enter y: '))
-
+try: 
+  x = int(input('Enter x: '))
+  y = int(input('Enter y: '))
+except:
+  print(" Error x or y != int ")
+  
 print('x or y = int')
 
 x1 = (2 + x) / (x * y)
